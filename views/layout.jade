@@ -8,8 +8,17 @@ html(ng-app='myapp')
   body
     include partials/nav
     div(ng-view)
-    block content
-
+    block 
+    <div class="row">
+    <div class="col-md-2">
+    <img src="../images/pjthedog.png" height="350" width="280" style="margin-top: -20px">
+    </div>
+    <div class="col-md-3">
+    <h2 style="margin-right: 150px"> Hello, my name is Wiley, and</h2> <br>
+    <h2> and that little guy I'm holding is PJ</h2>
+    </div>
+     
+    </div>
     script(src="javascripts/jquery.js")
     script(src="javascripts/angular.js")
     script(src="javascripts/angular-route.js")

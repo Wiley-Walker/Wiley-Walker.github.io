@@ -1,3 +1,13 @@
-body{
-  text-align: center;
+body{ 
+  text-align: center; background-image: url("https://myclone.files.wordpress.com/2011/05/machinetop_background.jpg")
+}
+
+h2{
+	color:white;
+}
+a{
+	color:white;
+}
+li{
+	color:white;
 }
